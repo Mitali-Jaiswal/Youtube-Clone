@@ -1,12 +1,13 @@
 import './Header.css';
 import React from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
-import VideoCallIcon from '@mui/icons-material/VideoCall';
-import AppsIcon from '@mui/icons-material/Apps';
-import NotificationsIcon from '@mui/icons-material/Notifications';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { Link } from 'react-router-dom';
 import SearchBar from '../SearchBar/SearchBar';
+// import VideoCallIcon from '@mui/icons-material/VideoCall';
+// import AppsIcon from '@mui/icons-material/Apps';
+// import NotificationsIcon from '@mui/icons-material/Notifications';
+// import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+
 
 
 
@@ -17,7 +18,7 @@ class Header extends React.Component {
             <div className="header">
                 <div>{this.response}</div>
                 <div className="header__left" >
-                <MenuIcon className="menu"/>
+                {/* <MenuIcon className="menu"/> */}
                 <Link to="/">
                     <img 
                         className="header__logo"
@@ -36,13 +37,13 @@ class Header extends React.Component {
                     </Link>
                     
                  </form>    */}
-    
+{/*     
                 <div className="header__icons">
                     <VideoCallIcon className="header__icon" />
                     <AppsIcon className="header__icon" />
                     <NotificationsIcon className="header__icon" />
                     <AccountCircleIcon  />
-                </div>
+                </div> */}
             </div>
         )
     }

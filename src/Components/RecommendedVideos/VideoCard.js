@@ -17,9 +17,7 @@ function VideoCard({v, onVideoSelect}) {
             <div className="video__text">
                 <h4>{v.snippet.title}</h4>
                 <p>{v.snippet.channelTitle}</p>
-                {/* <p>
-                    {views} . {timestamp}
-                </p> */}
+                
             </div>
             </div>
             

@@ -1,11 +1,13 @@
 .app__page{
     display: flex;
     border: 1px black;
+    margin-left: 80px;
 }
 
 @media screen and (max-width:720px) {
     .app__page{
         flex-direction: column;
+        margin-left: 0;
     }
    
     

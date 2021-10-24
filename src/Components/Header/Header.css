@@ -15,9 +15,10 @@
     height: 25px;
     align-items: center;
     object-fit: contain;
-    margin-left: 20px;
+    
 }
 .header__input{
+    margin-right: 140px;
     display: flex;
     align-items: center;
     width: 80%;
@@ -44,11 +45,13 @@
    .header__icons{
        display: none;
    }
+   
    .header__input{
-       width:50%;
+       margin-left: 20px;
+       width:75%;
    }
    .header__input input{
-       width: 150px;
+       width: 255px;
    }
    .menu{
        width:0;

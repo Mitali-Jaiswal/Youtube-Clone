@@ -22,7 +22,7 @@ class App extends React.Component {
         params:{
             part:'snippet',
             maxResult:5,
-            key: '[API KEY]',
+            key: 'AIzaSyC-O-9nmfkHJimcf3EclXTaDu7MFbq4XuU',
             q:searchTerm,
         }
         
@@ -44,13 +44,13 @@ onVideoSelect = (v)=>{
           <Switch>
             <Route path="/search/:searchTerm">
               <div className="app__page">
-                  <Sidebar />
+                  {/* <Sidebar /> */}
                   <SearchPage />
                 </div>
             </Route>
             <Route path="/" exact>
               <div className="app__page">
-                <Sidebar />
+                {/* <Sidebar /> */}
                
                 <Grid   item xs={8}>
                    <VideoDetail  video={selectedVideo}/>
